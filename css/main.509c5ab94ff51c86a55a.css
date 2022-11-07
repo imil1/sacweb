@@ -1131,7 +1131,7 @@ ol {
 
 @media(max-width: 460px) {
     .about__main-imgM {
-        top: 56%;
+        top: 39%;
         left: -3%
     }
 }
@@ -2093,17 +2093,25 @@ body {
 @media(prefers-color-scheme: dark) {
     
     body {
-        background-color: #525257;
+        background-color: #585858;
     }
-    .header__list-link ,.intro__main-title,.how__main-title,.type__main-title,.type__main-span,.type__sub-sometxt span,.team__main-title,.form__main-wraptxt-headline {
-        color: red;
+    .header__list-link ,.intro__main-title,.how__main-title,.type__main-title,.type__main-span,.type__sub-sometxt span,.team__main-title,.form__main-wraptxt-headline,.intro__rating-title h3 {
+        color: rgb(225, 226, 226);
     }
     .footer , .about{
-        background-color: #f00024;
+        background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     }
     .how__cards-wrap:hover {
-        box-shadow: 0px 15px 30px rgb(255, 9, 9);
+        box-shadow: 0px 15px 30px rgb(230, 230, 230);
     }
-
+    .intro__main-desc , .intro__rating-title span ,.intro__rating-starts span,.how__main-desc,.type__main-desc,.type__sub-sometxt p ,.type__main-sometxt p,.about__sub-someInfo-sub,.team__cards-card-spanSub,.form__main-wraptxt p,.form__main-form-click .span,.footer__main-cards p,.footer__main-cards-card a,.footer__licenses a,.how__cards-wrap-span,.form__sub-maintxt p,.form__sub .links .wrap a{
+        color: #fffdfe;
+    }
+    .team__cards-card-spanMain {
+        color: #101011;
+    }
+    .how__cards-wrap ,.form__sub{
+        background-color: #4a4d55;
+    }
 
 }
